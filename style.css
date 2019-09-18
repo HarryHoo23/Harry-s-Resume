@@ -9,7 +9,6 @@ body {
 header, footer{
     font-family: 'Lora', serif;
     background-color: lightblue;
-    height: 13em;
 }
 header h1,
 header h3{
