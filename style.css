@@ -1,0 +1,103 @@
+body {
+    margin: 0;
+}
+
+/* h3 {
+    line-height: 0%;
+} */
+
+header, footer{
+    font-family: 'Lora', serif;
+    background-color: lightblue;
+    height: 13em;
+}
+header h1,
+header h3{
+    background-color: lightblue;
+}
+
+/* footer style */
+footer{
+    text-align: center;
+}
+
+.profile{
+    background-color:  lightblue;
+}
+
+.skill{
+    background-color: rgb(154, 169, 194);
+}
+
+.work{
+    background-color: #f5f6fa;
+}
+
+.education{
+    background-color: #4bbbf3;
+}
+
+.content-wrap{
+    max-width: 1000px;
+    margin:0 auto;
+    padding: 50px;
+}
+
+.profile-Image{
+    width: 12em;
+    border-radius: 50%;
+    float: right;
+    margin-right: 2em;
+}
+
+.personal-info{
+    float: right;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    line-height: 1.3;
+}
+  
+li {
+    padding-left: 3em; 
+    text-indent: -.7em;
+}
+  
+li::before {
+    content: "• ";
+    padding-right: 5px;
+    color: rgb(23, 91, 218); /* or whatever color you prefer */
+}
+
+strong {
+    padding-left: 5px;
+}
+
+.date{
+    float: right;
+}
+
+h3, p {
+    margin: 0;
+}
+
+.work{
+    line-height: 1.8;
+}
+
+.experience{
+    padding-top: 20px;
+}
+
+.work h4 {
+    display: inline;
+}
+
+a:hover{
+    color: red;
+    background-color: transparent;
+    text-decoration: underline;
+}
