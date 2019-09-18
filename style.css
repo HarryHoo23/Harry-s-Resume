@@ -43,7 +43,8 @@ footer{
 }
 
 .profile-Image{
-    width: 12em;
+    max-width: 20%;
+    height: auto;
     border-radius: 50%;
     float: right;
     margin-right: 2em;
